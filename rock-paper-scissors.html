@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+  <script>
+  function computerPlay() {
+    let ranNum = Math.floor(Math.random() * 3)// 1. randomly choose integer 0 1 or 2
+    switch (ranNum) {
+      case 1:
+        return "rock";
+        break;
+      case 2:
+        return "scissors";
+        break;
+      case 0:
+        return "paper";
+        break;
+      default:
+        return "error";
+        break;
+    }
+  }
+
+const playerSelection = prompt("Choose Rock, Paper, or Scissors").toLowerCase();
+const computerSelection = computerPlay()
+
+console.log(playerSelection,computerSelection)
+  function playRound (playerSelection,computerSelection) {
+
+    if (playerSelection == "rock" )
+
+
+  }
+  </script>
+</body>
+</html>
